@@ -3,8 +3,11 @@ cd azad
 touch one.txt two.txt three.txt four.txt
 mkdir BAD
 touch BAD/bad.txt
-mv /home/azad/osc/azad/one.txt /home/azad/Downloads
-cp /home/azad/Downloads/one.txt /home/azad/Downloads/copy.txt
+cd ~
+cd ..
+cd Downloads
+mv /home/azad/osc/azad/one.txt Downloads/
+cp one.txt copy.txt
 cd ..
 nano two.txt
 echo 1-hello OSC 2-hello OSC 3-hello OSC 4-hello OSC 5-hello OSC 6-hello OSC 7-hello OSC 8-hello OSC >> three.txt
