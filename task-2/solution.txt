@@ -14,5 +14,8 @@ git checkout intro
 echo I love Git >> task-2/greeting.txt
 git add .
 git commit -m "Added I love git"
+<<<<<<< HEAD
 git checkout main
 git merge intro
+=======
+>>>>>>> intro
