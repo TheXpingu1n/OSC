@@ -11,3 +11,6 @@ git add task-2
 git commit -m "Added greeting"
 git branch intro
 git checkout intro
+echo I love Git >> task-2/greeting.txt
+git add .
+git commit -m "Added I love git"
