@@ -1,0 +1,10 @@
+git config --global user.name Azad
+git config --global user.name my-email@gmail.com (Didnt wrote it for privacy)
+cd /home/azad/
+git clone https://github.com/TheXpingu1n/OSC
+cd OSC
+mkdir task-2
+cd task-2
+touch greeting.txt
+echo hello world >> greeting.txt
+
