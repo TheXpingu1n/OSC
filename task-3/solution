@@ -1,0 +1,33 @@
+mkdir project_files
+cd project_files
+mkdir reports logs data
+cd reports
+touch report1.md report2.md
+cd /home/azad/project_files/logs/
+touch system.log error.log file1.pdf file2.pdf
+cd /home/azad/project_files/data/
+touch data.csv info.txt
+nano /home/azad/project_files/reports/report1.md
+nano /home/azad/project_files/logs/system.log
+nano /home/azad/project_files/data/data.csv
+cd /home/azad/project_files/logs/
+tar -cvf logs_backup.tar .
+mv logs_backup.tar /home/azad/project_files/
+tar -xvf /home/azad/project_files/logs_backup.tar
+find /home -name "*.md"
+find /home/azad/project_files -name "*.log"
+find /home/azad/project_files -name "file1.pdf"
+find /home/azad/project_files -iname "*.pdf"
+find /home/azad/project_files/logs -type f
+ln -s /home/azad/project_files/data/data.csv /home/azad/project_files/link_data.csv
+echo hello world >> link_data.csv
+nano /home/azad/project_files/data/data.csv
+rm /home/azad/project_files/link_data.csv
+cd .. (I was in logs directory)
+touch summary.txt
+date >> summary.txt
+(cat summary.txt | wc -l) | tee >> summary.txt
+cat /home/azad/project_files/reports/report1.md | wc -w
+(cat /home/azad/project_files/logs/system.log  | wc -m) | tee >> /home/azad/project_files/summary.txt
+(ls | wc -l) | tee >> summary.txt
+cat summary.txt
