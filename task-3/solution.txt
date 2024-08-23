@@ -25,6 +25,7 @@ nano /home/azad/project_files/data/data.csv
 rm /home/azad/project_files/link_data.csv
 cd .. (I was in logs directory)
 touch summary.txt
+echo "Summary Start" >> summary.txt
 date >> summary.txt
 (cat summary.txt | wc -l) | tee >> summary.txt
 cat /home/azad/project_files/reports/report1.md | wc -w
