@@ -14,5 +14,5 @@ sudo userdel -r newuser
 sudo apt update
 sudo apt upgrade
 sudo apt-get install lolcat
-echo "I Love OSC" >> lolcat
+echo "I Love OSC" | tee lolcat
 sudo apt remove lolcat
