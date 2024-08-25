@@ -1,0 +1,302 @@
+    PID CMD
+     99 [acpi_thermal_pm]
+    189 [ata_sff]
+    564 avahi-daemon: chroot helper
+    553 avahi-daemon: running [azadPC.local]
+   3689 bash
+     52 [blkcg_punt_bio]
+   2320 cat
+   2321 cat
+   1798 cinnamon-killer-daemon
+   1719 cinnamon-launcher
+   1726 cinnamon --replace
+   1396 cinnamon-session --session cinnamon
+     18 [cpuhp/0]
+     19 [cpuhp/1]
+     24 [cpuhp/2]
+     29 [cpuhp/3]
+    785 [cryptd]
+   1576 csd-a11y-settings
+   1589 csd-automount
+   1583 csd-background
+   1552 csd-clipboard
+   1559 csd-color
+   1586 csd-housekeeping
+   1561 csd-keyboard
+   1562 csd-media-keys
+   1564 csd-power
+   1570 csd-screensaver-proxy
+   1603 csd-wacom
+   1598 csd-xsettings
+     55 [devfreq_wq]
+     54 [edac-poller]
+    361 [ext4-rsv-conver]
+   1575 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+     39 [inet_frag_wq]
+    102 [ipv6_addrconf]
+    197 [irq/16-vmwgfx]
+     67 [irq/24-pciehp]
+     68 [irq/25-pciehp]
+     69 [irq/26-pciehp]
+     70 [irq/27-pciehp]
+     71 [irq/28-pciehp]
+     72 [irq/29-pciehp]
+     73 [irq/30-pciehp]
+     74 [irq/31-pciehp]
+     75 [irq/32-pciehp]
+     76 [irq/33-pciehp]
+     77 [irq/34-pciehp]
+     78 [irq/35-pciehp]
+     79 [irq/36-pciehp]
+     80 [irq/37-pciehp]
+     81 [irq/38-pciehp]
+     82 [irq/39-pciehp]
+     83 [irq/40-pciehp]
+     84 [irq/41-pciehp]
+     85 [irq/42-pciehp]
+     86 [irq/43-pciehp]
+     87 [irq/44-pciehp]
+     88 [irq/45-pciehp]
+     89 [irq/46-pciehp]
+     90 [irq/47-pciehp]
+     91 [irq/48-pciehp]
+     92 [irq/49-pciehp]
+     93 [irq/50-pciehp]
+     94 [irq/51-pciehp]
+     95 [irq/52-pciehp]
+     96 [irq/53-pciehp]
+     97 [irq/54-pciehp]
+     98 [irq/55-pciehp]
+    573 [irq/57-vmw_vmci]
+    574 [irq/58-vmw_vmci]
+    575 [irq/59-vmw_vmci]
+    360 [jbd2/sda1-8]
+     40 [kauditd]
+     51 [kblockd]
+     47 [kcompactd0]
+     38 [kdevtmpfs]
+     49 [khugepaged]
+     44 [khungtaskd]
+     50 [kintegrityd]
+     48 [ksmd]
+     14 [ksoftirqd/0]
+     21 [ksoftirqd/1]
+     26 [ksoftirqd/2]
+     31 [ksoftirqd/3]
+    107 [kstrp]
+     59 [kswapd0]
+      2 [kthreadd]
+     65 [kthrotld]
+   5942 [kworker/0:0-events]
+      8 [kworker/0:0H-events_highpri]
+    169 [kworker/0:1H-kblockd]
+   4994 [kworker/0:2-events]
+   5589 [kworker/1:0-events]
+     23 [kworker/1:0H-events_highpri]
+    170 [kworker/1:1H-kblockd]
+   6043 [kworker/1:1-mm_percpu_wq]
+   7169 [kworker/1:2-events_freezable_power_]
+     28 [kworker/2:0H-events_highpri]
+   5635 [kworker/2:0-mpt_poll_0]
+   5977 [kworker/2:1]
+    171 [kworker/2:1H-kblockd]
+   5327 [kworker/3:0-events]
+     33 [kworker/3:0H-events_highpri]
+   6109 [kworker/3:1-cgroup_destroy]
+     58 [kworker/3:1H-kblockd]
+   7163 [kworker/u256:0-events_unbound]
+   6380 [kworker/u256:1-events_unbound]
+   6042 [kworker/u256:2-events_unbound]
+    113 [kworker/u257:0-hci0]
+    892 [kworker/u257:2-hci0]
+    407 /lib/systemd/systemd-journald
+    570 /lib/systemd/systemd-logind
+    439 /lib/systemd/systemd-udevd
+   1365 /lib/systemd/systemd --user
+   1360 lightdm --session-child 13 24
+    300 [md]
+     16 [migration/0]
+     20 [migration/1]
+     25 [migration/2]
+     30 [migration/3]
+    101 [mld]
+     10 [mm_percpu_wq]
+    192 [mpt/0]
+    190 [mpt_poll_0]
+   1790 nemo-desktop
+      6 [netns]
+   1796 nm-applet
+     45 [oom_reaper]
+   2315 /opt/google/chrome/chrome
+   2323 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/azad/.config/google-chrome/Crash Reports --metrics-dir=/home/azad/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Debian GNU/Linux 12 (bookworm) --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=128.0.6613.84 --initial-client-fd=5 --shared-client-connection
+   2325 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/azad/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Debian GNU/Linux 12 (bookworm) --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=128.0.6613.84 --initial-client-fd=4 --shared-client-connection
+   2360 /opt/google/chrome/chrome --type=gpu-process --crashpad-handler-pid=2323 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,12211612227828302034,3203353306396581931,262144 --variations-seed-version=20240823-130058.581000
+   3320 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=2323 --enable-crash-reporter=, --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=11 --time-ticks-at-unix-epoch=-1724598595966623 --launch-time-ticks=132937938 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12211612227828302034,3203353306396581931,262144 --variations-seed-version=20240823-130058.581000
+   4810 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=2323 --enable-crash-reporter=, --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=126 --time-ticks-at-unix-epoch=-1724598595966623 --launch-time-ticks=4546458875 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12211612227828302034,3203353306396581931,262144 --variations-seed-version=20240823-130058.581000
+   4824 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=2323 --enable-crash-reporter=, --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=127 --time-ticks-at-unix-epoch=-1724598595966623 --launch-time-ticks=4563485532 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12211612227828302034,3203353306396581931,262144 --variations-seed-version=20240823-130058.581000
+   6327 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=2323 --enable-crash-reporter=, --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=219 --time-ticks-at-unix-epoch=-1724598595966623 --launch-time-ticks=9251228765 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12211612227828302034,3203353306396581931,262144 --variations-seed-version=20240823-130058.581000
+   7188 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=2323 --enable-crash-reporter=, --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=226 --time-ticks-at-unix-epoch=-1724598595966623 --launch-time-ticks=9867460983 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12211612227828302034,3203353306396581931,262144 --variations-seed-version=20240823-130058.581000
+   3422 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=2323 --enable-crash-reporter=, --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=35 --time-ticks-at-unix-epoch=-1724598595966623 --launch-time-ticks=212257195 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12211612227828302034,3203353306396581931,262144 --variations-seed-version=20240823-130058.581000
+   3539 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=2323 --enable-crash-reporter=, --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=44 --time-ticks-at-unix-epoch=-1724598595966623 --launch-time-ticks=272177575 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12211612227828302034,3203353306396581931,262144 --variations-seed-version=20240823-130058.581000
+   3600 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=2323 --enable-crash-reporter=, --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --pdf-renderer --disable-gpu-compositing --lang=en-US --js-flags=--jitless --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=48 --time-ticks-at-unix-epoch=-1724598595966623 --launch-time-ticks=281298997 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12211612227828302034,3203353306396581931,262144 --variations-seed-version=20240823-130058.581000
+   6120 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=2323 --enable-crash-reporter=, --extension-process --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=200 --time-ticks-at-unix-epoch=-1724598595966623 --launch-time-ticks=9055732099 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12211612227828302034,3203353306396581931,262144 --variations-seed-version=20240823-130058.581000
+   7213 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=2323 --enable-crash-reporter=, --extension-process --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=227 --time-ticks-at-unix-epoch=-1724598595966623 --launch-time-ticks=9959744519 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12211612227828302034,3203353306396581931,262144 --variations-seed-version=20240823-130058.581000
+   3164 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=2323 --enable-crash-reporter=, --extension-process --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=22 --time-ticks-at-unix-epoch=-1724598595966623 --launch-time-ticks=113317723 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12211612227828302034,3203353306396581931,262144 --variations-seed-version=20240823-130058.581000
+   2678 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=2323 --enable-crash-reporter=, --extension-process --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1724598595966623 --launch-time-ticks=102166001 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12211612227828302034,3203353306396581931,262144 --variations-seed-version=20240823-130058.581000
+   2731 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=2323 --enable-crash-reporter=, --extension-process --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1724598595966623 --launch-time-ticks=104141397 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12211612227828302034,3203353306396581931,262144 --variations-seed-version=20240823-130058.581000
+   3590 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=2323 --enable-crash-reporter=, --extension-process --init-isolate-as-foreground --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=47 --time-ticks-at-unix-epoch=-1724598595966623 --launch-time-ticks=281002528 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12211612227828302034,3203353306396581931,262144 --variations-seed-version=20240823-130058.581000
+   4848 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=2323 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12211612227828302034,3203353306396581931,262144 --variations-seed-version=20240823-130058.581000
+   2365 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=2323 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12211612227828302034,3203353306396581931,262144 --variations-seed-version=20240823-130058.581000
+   2486 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --crashpad-handler-pid=2323 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12211612227828302034,3203353306396581931,262144 --variations-seed-version=20240823-130058.581000
+   2332 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=2323 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+   2334 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=2323 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+   2331 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --crashpad-handler-pid=2323 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+   1801 /opt/xdman/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+   7224 ps -e -o pid,cmd --sort=cmd
+    310 [raid5wq]
+      3 [rcu_gp]
+      4 [rcu_par_gp]
+     15 [rcu_preempt]
+     11 [rcu_tasks_kthread]
+     12 [rcu_tasks_rude_kthread]
+     13 [rcu_tasks_trace_kthread]
+    859 /sbin/agetty -o -p -- \u --noclear - linux
+      1 /sbin/init
+    603 /sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+    193 [scsi_eh_0]
+    195 [scsi_eh_1]
+    214 [scsi_eh_10]
+    216 [scsi_eh_11]
+    218 [scsi_eh_12]
+    220 [scsi_eh_13]
+    222 [scsi_eh_14]
+    224 [scsi_eh_15]
+    226 [scsi_eh_16]
+    228 [scsi_eh_17]
+    230 [scsi_eh_18]
+    232 [scsi_eh_19]
+    198 [scsi_eh_2]
+    234 [scsi_eh_20]
+    236 [scsi_eh_21]
+    238 [scsi_eh_22]
+    240 [scsi_eh_23]
+    242 [scsi_eh_24]
+    244 [scsi_eh_25]
+    246 [scsi_eh_26]
+    248 [scsi_eh_27]
+    250 [scsi_eh_28]
+    252 [scsi_eh_29]
+    200 [scsi_eh_3]
+    254 [scsi_eh_30]
+    256 [scsi_eh_31]
+    289 [scsi_eh_32]
+    202 [scsi_eh_4]
+    204 [scsi_eh_5]
+    206 [scsi_eh_6]
+    208 [scsi_eh_7]
+    210 [scsi_eh_8]
+    212 [scsi_eh_9]
+    194 [scsi_tmf_0]
+    196 [scsi_tmf_1]
+    215 [scsi_tmf_10]
+    217 [scsi_tmf_11]
+    219 [scsi_tmf_12]
+    221 [scsi_tmf_13]
+    223 [scsi_tmf_14]
+    225 [scsi_tmf_15]
+    227 [scsi_tmf_16]
+    229 [scsi_tmf_17]
+    231 [scsi_tmf_18]
+    233 [scsi_tmf_19]
+    199 [scsi_tmf_2]
+    235 [scsi_tmf_20]
+    237 [scsi_tmf_21]
+    239 [scsi_tmf_22]
+    241 [scsi_tmf_23]
+    243 [scsi_tmf_24]
+    245 [scsi_tmf_25]
+    247 [scsi_tmf_26]
+    249 [scsi_tmf_27]
+    251 [scsi_tmf_28]
+    253 [scsi_tmf_29]
+    201 [scsi_tmf_3]
+    255 [scsi_tmf_30]
+    257 [scsi_tmf_31]
+    290 [scsi_tmf_32]
+    203 [scsi_tmf_4]
+    205 [scsi_tmf_5]
+    207 [scsi_tmf_6]
+    209 [scsi_tmf_7]
+    211 [scsi_tmf_8]
+    213 [scsi_tmf_9]
+   1366 (sd-pam)
+      5 [slub_flushwq]
+    836 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+   7225 tee
+     53 [tpm_dev_wq]
+   1519 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+   1386 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    556 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   1385 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+   1786 /usr/bin/gnome-software --gapplication-service
+   1486 /usr/bin/ibus-daemon --daemonize --xim
+   1381 /usr/bin/pipewire
+   1383 /usr/bin/pipewire-pulse
+   1799 /usr/bin/python3 /usr/bin/blueman-applet
+   2011 /usr/bin/python3 /usr/bin/blueman-tray
+   2227 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+   1469 /usr/bin/ssh-agent /usr/bin/im-launch cinnamon-session-cinnamon
+    543 /usr/bin/VGAuthService
+    547 /usr/bin/vmtoolsd
+   1785 /usr/bin/vmtoolsd -n vmusr --blockFd 3
+   1382 /usr/bin/wireplumber
+    548 /usr/libexec/accounts-daemon
+   1530 /usr/libexec/at-spi2-registryd --use-gnome-session
+   1502 /usr/libexec/at-spi-bus-launcher
+    902 /usr/libexec/bluetooth/bluetoothd
+   2009 /usr/libexec/bluetooth/obexd
+   1631 /usr/libexec/colord
+   1658 /usr/libexec/dconf-service
+   1782 /usr/libexec/geoclue-2.0/demos/agent
+   3659 /usr/libexec/gnome-terminal-server
+   1714 /usr/libexec/goa-daemon
+   1736 /usr/libexec/goa-identity-service
+   1680 /usr/libexec/gvfs-afc-volume-monitor
+   1489 /usr/libexec/gvfsd
+   1497 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+   2158 /usr/libexec/gvfsd-metadata
+   2133 /usr/libexec/gvfsd-trash --spawner :1.14 /org/gtk/gvfs/exec_spaw/0
+   1710 /usr/libexec/gvfs-goa-volume-monitor
+   1695 /usr/libexec/gvfs-gphoto2-volume-monitor
+   1740 /usr/libexec/gvfs-mtp-volume-monitor
+   1655 /usr/libexec/gvfs-udisks2-volume-monitor
+   1592 /usr/libexec/ibus-engine-simple
+   1503 /usr/libexec/ibus-extension-gtk3
+   1499 /usr/libexec/ibus-memconf
+   1516 /usr/libexec/ibus-portal
+   1500 /usr/libexec/ibus-ui-gtk3
+   1506 /usr/libexec/ibus-x11 --kill-daemon
+    563 /usr/libexec/power-profiles-daemon
+   1276 /usr/libexec/rtkit-daemon
+    571 /usr/libexec/udisks2/udisksd
+   1622 /usr/libexec/upowerd
+   1767 /usr/libexec/xapps/sn-watcher/xapp-sn-watcher
+   1538 /usr/libexec/xdg-desktop-portal
+   1590 /usr/libexec/xdg-desktop-portal-gtk
+   1549 /usr/libexec/xdg-document-portal
+   1560 /usr/libexec/xdg-permission-store
+   1781 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+    561 /usr/lib/polkit-1/polkitd --no-debug
+   1640 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-printer
+   1566 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-print-notifications
+    858 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+    555 /usr/sbin/cron -f
+    935 /usr/sbin/cups-browsed
+    767 /usr/sbin/cupsd -l
+   1238 /usr/sbin/exim4 -bd -q30m
+    801 /usr/sbin/lightdm
+    675 /usr/sbin/ModemManager
+    594 /usr/sbin/NetworkManager --no-daemon
+    430 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+     46 [writeback]
+    112 [zswap-shrink]
